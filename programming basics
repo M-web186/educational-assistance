@@ -3,13 +3,14 @@ def main():
     print("Choose a topic to learn and try out:")
     print("1. Print a message")
     print("2. Variables and Data Types")
-    print("3. Loops (For Loop Example)")
-    print("4. Functions")
-    print("5. Exit")
+    print("3. if statements")
+    print("4. Loops (For Loop Example)")
+    print("5. Functions")
+    print("6. Exit")
     
     while True:
-        choice = input("Enter your choice (1-5): ")
-        if choice == '5':
+        choice = input("Enter your choice (1-6): ")
+        if choice == '6':
             print("Goodbye!")
             break
 
@@ -73,9 +74,9 @@ def main():
             print("6 + 6 ="  ,result, "\n")
 
         else:
-            print("Invalid choice. Please enter a number from 1 to 5.")
+            print("Invalid choice. Please enter a number from 1 to 6.")
 
-        print("Choose another concept or press 5 to exit.")
+        print("Choose another concept or press 6 to exit.")
 
 if __name__ == "__main__":
     main()
