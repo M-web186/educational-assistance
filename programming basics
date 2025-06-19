@@ -1,0 +1,81 @@
+def main():
+    print("Welcome to basics of programming!")
+    print("Choose a topic to learn and try out:")
+    print("1. Print a message")
+    print("2. Variables and Data Types")
+    print("3. Loops (For Loop Example)")
+    print("4. Functions")
+    print("5. Exit")
+    
+    while True:
+        choice = input("Enter your choice (1-5): ")
+        if choice == '5':
+            print("Goodbye!")
+            break
+
+        if choice == '1':
+            print("\nExample: Printing a message")
+            print("Code: print('Hello, there!')")
+            print("Output:")
+            print("Hello, there!\n")
+
+        elif choice == '2':
+            print("\nExample: Variables and Data Types")
+            print("Code:")
+            print("x = 5 # integer")
+            print("y = 10.6 #float")
+            print("name = 'Alice' # string")
+            print("are_you_happy = True # boolean")
+            print("print(x, y, name, are_you_happy)")
+            print("Output:")
+            x = 5
+            name = 'Alice'
+            y = 10.6
+            are_you_happy = True
+            print(x, y, name, is_happy, "\n")
+
+        elif choice == '3':
+            print("\nExample: If Statements")
+            print("Code:")
+            print("score = 50")
+            print("if score >= 50:")
+            print("    print('You have passed.')")
+            print("else:")
+            print("    print('You have failed.')")
+            print("Output:")
+            score = 50
+            if score >= 50:
+                print("You have passed.\n")
+            else:
+                print("You have failed.\n")
+
+        elif choice == '4':
+            print("\nExample: For Loop")
+            print("Code:")
+            print("for i in range(5):")
+            print("    print('Iteration', i)")
+            print("Output:")
+            for i in range(5):
+                print("Iteration", i)
+            print()
+
+        elif choice == '5':
+            print("\nExample: Functions")
+            print("Code:")
+            print("def addition(a, b):")
+            print("    return a + b")
+            print("result = add(6, 6)")
+            print("print('6 + 6 =', result)")
+            print("Output:")
+            def add(a, b):
+                return a + b
+            result = add(6, 6)
+            print("6 + 6 ="  ,result, "\n")
+
+        else:
+            print("Invalid choice. Please enter a number from 1 to 5.")
+
+        print("Choose another concept or press 5 to exit.")
+
+if __name__ == "__main__":
+    main()
