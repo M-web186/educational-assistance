@@ -1,0 +1,39 @@
+## Educational Assistance
+
+Programs to help learners understand basic programming concepts interactively.
+
+## Features
+
+- Print messages  
+- Variables & data types  
+- If statements  
+- Loops  
+- Functions
+
+## Usage
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/M-web186/educational-assistance.git
+   cd educational-assistance
+Run the script:
+bash
+python "programming basics"
+Follow the prompts to learn programming basics.
+
+## Example Output
+Code
+Welcome to basics of programming!
+Choose a topic to learn and try out:
+1. Print a message
+2. Variables and Data Types
+3. Loops (For Loop Example)
+4. Functions
+5. Exit
+Enter your choice (1-5):
+Contributions welcome!
+License: MIT
+
+Created by M-web186
+
+
